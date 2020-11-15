@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Montserrat:wght@700;800;900&display=swap');
+*{
+	padding:0;
+	margin:0;
+}
+.Landingpage{
+	  background-image: url('background.png');
+  background-repeat: no-repeat;  
+  background-size: cover;
+  height: 850px;
+	
+}
+.navbar{
+	display:flex;
+	padding: 30px 100px
+}
+.nav-links{
+	flex: 1;
+}
+.nav-links ul {
+	margin-left: 30px;
+	display:inline;
+}
+.nav-links ul li{
+	color: white;
+	list-style: none;
+	display: inline-block;
+	font-family: 'Inconsolata', monospace;
+	font-size:18px;
+	padding: 20px;
+
+}
+.nav-links ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.nav-links ul li:hover {
+  background-color: grey;
+  display:inline-block;
+  transition-delay: .2s;
+}
+.nav-links ul li.active a{
+	padding-bottom: 5px; 
+            border-bottom-style: solid; 
+            border-bottom-width: 3px; 
+
+}
+/*------------------------------------------- home page ------------------------------------------- */
+#home{
+	height:2050px;
+	background:#ffffff;
+	border-radius:10px;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	margin: 0%  auto 10px auto;
+}
+#home iframe{
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-left: 185px;
+
+
+
+}
+.latest {
+  display: flex;
+  width: 100%;
+  max-width: 1000px;
+  margin: 2px auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-self: center;
+}
+
+.body { 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 81px;
+  font-weight: 900px;
+  line-height: 70px;
+  color: #e6483f;
+  padding: .150em;
+  margin-right: 70px;
+  margin-top: 70px;
+}
+button{
+  width:230px;
+	height:50px;
+	background-color: grey;
+	border-radius: 10%;
+	border: 1px black;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*------------------------------------------- music page ------------------------------------------- */
+
+.musicpage{
+	min-height:850px;
+	background size: cover;
+	overflow-x: hidden;
+	position:relative;
+}
+.musicnavbar{
+	display:flex;
+	padding: 30px 100px
+}
+.musicnav-links{
+	flex: 1;
+}
+.musicnav-links ul {
+	margin-left: 30px;
+	display:inline;
+}
+.musicnav-links ul li{
+	color: white;
+	list-style: none;
+	display: inline-block;
+	font-family: 'Inconsolata', monospace;
+	font-size: 18px;
+	padding: 20px;
+
+}
+.musicnav-links ul li a{
+	text-decoration: none;
+	color: black;
+}
+.musicnav-links ul li:hover {
+  background-color: grey;
+  display:inline-block;
+  transition-delay: .2s;
+}
+
+.musicnav-links ul li.active a{
+	padding-bottom: 5px; 
+    border-bottom-style: solid; 
+    border-bottom-width: 3px;
+}
+.wrapper h2{
+	text-align:center;
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif; 
+}
+.img-area{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+}
+.music-img{
+	padding: 20px 20px 20px;
+
+}
+.img-area img:hover{
+	opacity: .3;
+	transition: .9s;
+}
+/*------------------------------------------- tour page ------------------------------------------- */
+.tourpage{
+	min-height:20px;
+	background size: cover;
+	overflow-x: hidden;
+	position:relative;
+}
+.tournavbar{
+	display:flex;
+	padding: 30px 100px
+}
+.tournav-links{
+	flex: 1;
+}
+.tournav-links ul {
+	margin-left: 30px;
+	display:inline;
+}
+.tournav-links ul li{
+	color: white;
+	list-style: none;
+	display: inline-block;
+	font-family: 'Inconsolata', monospace;
+	font-size:18px;
+	padding: 20px;
+}
+.tournav-links ul li a{
+	text-decoration: none;
+	color: black;
+}
+.tournav-links ul li:hover {
+  background-color: grey;
+  display:inline-block;
+  transition-delay: .2s;
+}
+
+.tournav-links ul li.active a{
+	padding-bottom: 5px; 
+            border-bottom-style: solid; 
+            border-bottom-width: 3px; 
+	}
+table{
+  border-collapse: collapse;
+ width: 85%;
+ margin: auto;
+table-layout: fixed;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+ text-align: left;
+margin-top: 50px;
+margin-bottom: 400px;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+footer{
+  padding:20px;
+  margin-top:10px;
+  color:#ffffff;
+  background-color: grey;
+  text-align: center;
+}
+
+
+  
+
